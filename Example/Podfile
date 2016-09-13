@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YTTabSwiper_Example' do
+  pod 'YTTabSwiper', :path => '../'
+
+  target 'YTTabSwiper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
