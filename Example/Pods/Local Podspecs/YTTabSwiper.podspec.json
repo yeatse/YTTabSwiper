@@ -1,0 +1,22 @@
+{
+  "name": "YTTabSwiper",
+  "version": "0.1.0",
+  "summary": "A short description of YTTabSwiper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/YTTabSwiper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yang Chao": "iyeatse@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/YTTabSwiper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YTTabSwiper/Classes/**/*"
+}

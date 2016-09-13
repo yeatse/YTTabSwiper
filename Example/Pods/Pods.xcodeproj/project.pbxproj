@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2287157D04F7A07BFCBD9C0E84DCEE67 /* Pods-YTTabSwiper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3BBC4D8374731DF8D0BF087FD8038 /* Pods-YTTabSwiper_Tests-dummy.m */; };
+		23A112FD1474B34F40669C9D01681450 /* Pods-YTTabSwiper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB5E2A848A914A1A1CA991C8EC4792F6 /* Pods-YTTabSwiper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5480B745271649BE1A5F71FF1FAE1F3D /* Pods-YTTabSwiper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31401C891A1481ACF3A0A25E30B70913 /* Pods-YTTabSwiper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		924D7C99641646EAA5D8024D31BA876B /* Pods-YTTabSwiper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BF47E14D023037A441BB9A182BB0B1 /* Pods-YTTabSwiper_Example-dummy.m */; };
+		A2CC6A1F61B6A0D46901A8F56FCCCBA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A3D010E2DC838D37312F33AC3B0A74EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BD5B09D132333BE97B718E7A49B0587D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CF08C1E23D1B8B1E59703D10BA16E770 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5748F2CFF4CC674A0D8752E13898D76E /* ReplaceMe.m */; };
+		D9FD855C9037FAB2F932092819631CF1 /* YTTabSwiper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B291BD5BB4FB6A6FAACB51D795F05142 /* YTTabSwiper-dummy.m */; };
+		E94D6C52A1BA26467259E64C79DEEC73 /* YTTabSwiper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C690AD637C7F142AABEE6003AB0AAC88 /* YTTabSwiper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E12C0CE9B4EC8FC31B52672AAF1EC8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE9C68DE1DAFA39D81E88B8FEA0DC35;
+			remoteInfo = YTTabSwiper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		171B6DA0966D1CC971E001C4B8734AA2 /* Pods-YTTabSwiper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YTTabSwiper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		20F2C787F21BD992CA009A6CA3A3021A /* Pods-YTTabSwiper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YTTabSwiper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DE70B5CACE61240E3B3434635FCA872 /* Pods_YTTabSwiper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTTabSwiper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31401C891A1481ACF3A0A25E30B70913 /* Pods-YTTabSwiper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YTTabSwiper_Example-umbrella.h"; sourceTree = "<group>"; };
+		36F1CFEF35A6C17536498530459EB7D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FF4ED3FF27FD4C1C381A57798AA10A /* Pods-YTTabSwiper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YTTabSwiper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3854CA862B68E9C86B3E3F307DD20BA6 /* Pods-YTTabSwiper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTTabSwiper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		398443F53213A719469DC72EE9B10769 /* Pods-YTTabSwiper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YTTabSwiper_Example.modulemap"; sourceTree = "<group>"; };
+		415F76F86172C5926B0AE627F2F83A59 /* Pods_YTTabSwiper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTTabSwiper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DC9F50332BB3B730563630CA3CFC00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5748F2CFF4CC674A0D8752E13898D76E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		59C6E249945DA267073D088D82C7AE0A /* Pods-YTTabSwiper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YTTabSwiper_Example-resources.sh"; sourceTree = "<group>"; };
+		6999B19DD0D187698A5D587130F1F97E /* YTTabSwiper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YTTabSwiper.xcconfig; sourceTree = "<group>"; };
+		6FB98D61C272526446902AFEC9344BE2 /* Pods-YTTabSwiper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YTTabSwiper_Tests.modulemap"; sourceTree = "<group>"; };
+		850FF091CD45E382E92B0AB7478E5D91 /* YTTabSwiper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YTTabSwiper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		939096F5CC6270667A498DE1A9BA5AFE /* Pods-YTTabSwiper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTTabSwiper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D4D699DAE70822F2706BD57E337282 /* Pods-YTTabSwiper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YTTabSwiper_Tests-resources.sh"; sourceTree = "<group>"; };
+		963DEA0A8A67A9D87336928C06F6EAC9 /* Pods-YTTabSwiper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTTabSwiper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		96E3BBC4D8374731DF8D0BF087FD8038 /* Pods-YTTabSwiper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YTTabSwiper_Tests-dummy.m"; sourceTree = "<group>"; };
+		9B18F15E1FEE60F898AF7CEE7FA935D2 /* YTTabSwiper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YTTabSwiper.modulemap; sourceTree = "<group>"; };
+		9DFED8AB4DB37AB389AD5B796559C741 /* Pods-YTTabSwiper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YTTabSwiper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A5B03884FDF4D9790249C5E7BF46A805 /* YTTabSwiper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTTabSwiper-prefix.pch"; sourceTree = "<group>"; };
+		B291BD5BB4FB6A6FAACB51D795F05142 /* YTTabSwiper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YTTabSwiper-dummy.m"; sourceTree = "<group>"; };
+		B94D445BC1E5C2A0975A6AC13535DD47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5E2A848A914A1A1CA991C8EC4792F6 /* Pods-YTTabSwiper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YTTabSwiper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C690AD637C7F142AABEE6003AB0AAC88 /* YTTabSwiper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTTabSwiper-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1BF47E14D023037A441BB9A182BB0B1 /* Pods-YTTabSwiper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YTTabSwiper_Example-dummy.m"; sourceTree = "<group>"; };
+		E764D7B10FED2E68E7F26006F0D6E4F7 /* Pods-YTTabSwiper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YTTabSwiper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F76A8F1D7E2E2E6BB98F58097105DF54 /* Pods-YTTabSwiper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTTabSwiper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F9789C9EBD3E9444E3858E2D5C3DA0F0 /* Pods-YTTabSwiper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YTTabSwiper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23EB9247EF689E71F1F007ED9A5FEB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CC6A1F61B6A0D46901A8F56FCCCBA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F3BA1246DFA5281A165FC1888B596F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5B09D132333BE97B718E7A49B0587D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C1DD55D63B97E6F864CFD485592FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D010E2DC838D37312F33AC3B0A74EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1D8B3B471B263635B90118DE012E02 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5748F2CFF4CC674A0D8752E13898D76E /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2CB166447A542A731841FA4CBE262431 /* YTTabSwiper */ = {
+			isa = PBXGroup;
+			children = (
+				0E1D8B3B471B263635B90118DE012E02 /* Classes */,
+			);
+			path = YTTabSwiper;
+			sourceTree = "<group>";
+		};
+		318A345609A9AC55DEBE6A8B8248C702 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8DC8E5AE6DD7A694145F3A5A08F4326 /* YTTabSwiper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4E2CA55DA227300A17278069A14D21A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B94D445BC1E5C2A0975A6AC13535DD47 /* Info.plist */,
+				9B18F15E1FEE60F898AF7CEE7FA935D2 /* YTTabSwiper.modulemap */,
+				6999B19DD0D187698A5D587130F1F97E /* YTTabSwiper.xcconfig */,
+				B291BD5BB4FB6A6FAACB51D795F05142 /* YTTabSwiper-dummy.m */,
+				A5B03884FDF4D9790249C5E7BF46A805 /* YTTabSwiper-prefix.pch */,
+				C690AD637C7F142AABEE6003AB0AAC88 /* YTTabSwiper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YTTabSwiper";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				318A345609A9AC55DEBE6A8B8248C702 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ACFA1620555063A6ED5B0DC50B94EA8A /* Products */,
+				85B0B9F1EBA25A62D1D5ED5DE188B2ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85B0B9F1EBA25A62D1D5ED5DE188B2ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA97C9343DEB0B1FD0BDEFA5E8333D4 /* Pods-YTTabSwiper_Example */,
+				E6F96B68E48E313ACF1A1BBA47FA0142 /* Pods-YTTabSwiper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8DC8E5AE6DD7A694145F3A5A08F4326 /* YTTabSwiper */ = {
+			isa = PBXGroup;
+			children = (
+				4E2CA55DA227300A17278069A14D21A7 /* Support Files */,
+				2CB166447A542A731841FA4CBE262431 /* YTTabSwiper */,
+			);
+			name = YTTabSwiper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ACFA1620555063A6ED5B0DC50B94EA8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE70B5CACE61240E3B3434635FCA872 /* Pods_YTTabSwiper_Example.framework */,
+				415F76F86172C5926B0AE627F2F83A59 /* Pods_YTTabSwiper_Tests.framework */,
+				850FF091CD45E382E92B0AB7478E5D91 /* YTTabSwiper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFA97C9343DEB0B1FD0BDEFA5E8333D4 /* Pods-YTTabSwiper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				56DC9F50332BB3B730563630CA3CFC00 /* Info.plist */,
+				398443F53213A719469DC72EE9B10769 /* Pods-YTTabSwiper_Example.modulemap */,
+				20F2C787F21BD992CA009A6CA3A3021A /* Pods-YTTabSwiper_Example-acknowledgements.markdown */,
+				37FF4ED3FF27FD4C1C381A57798AA10A /* Pods-YTTabSwiper_Example-acknowledgements.plist */,
+				E1BF47E14D023037A441BB9A182BB0B1 /* Pods-YTTabSwiper_Example-dummy.m */,
+				171B6DA0966D1CC971E001C4B8734AA2 /* Pods-YTTabSwiper_Example-frameworks.sh */,
+				59C6E249945DA267073D088D82C7AE0A /* Pods-YTTabSwiper_Example-resources.sh */,
+				31401C891A1481ACF3A0A25E30B70913 /* Pods-YTTabSwiper_Example-umbrella.h */,
+				939096F5CC6270667A498DE1A9BA5AFE /* Pods-YTTabSwiper_Example.debug.xcconfig */,
+				3854CA862B68E9C86B3E3F307DD20BA6 /* Pods-YTTabSwiper_Example.release.xcconfig */,
+			);
+			name = "Pods-YTTabSwiper_Example";
+			path = "Target Support Files/Pods-YTTabSwiper_Example";
+			sourceTree = "<group>";
+		};
+		E6F96B68E48E313ACF1A1BBA47FA0142 /* Pods-YTTabSwiper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				36F1CFEF35A6C17536498530459EB7D1 /* Info.plist */,
+				6FB98D61C272526446902AFEC9344BE2 /* Pods-YTTabSwiper_Tests.modulemap */,
+				F9789C9EBD3E9444E3858E2D5C3DA0F0 /* Pods-YTTabSwiper_Tests-acknowledgements.markdown */,
+				E764D7B10FED2E68E7F26006F0D6E4F7 /* Pods-YTTabSwiper_Tests-acknowledgements.plist */,
+				96E3BBC4D8374731DF8D0BF087FD8038 /* Pods-YTTabSwiper_Tests-dummy.m */,
+				9DFED8AB4DB37AB389AD5B796559C741 /* Pods-YTTabSwiper_Tests-frameworks.sh */,
+				94D4D699DAE70822F2706BD57E337282 /* Pods-YTTabSwiper_Tests-resources.sh */,
+				BB5E2A848A914A1A1CA991C8EC4792F6 /* Pods-YTTabSwiper_Tests-umbrella.h */,
+				963DEA0A8A67A9D87336928C06F6EAC9 /* Pods-YTTabSwiper_Tests.debug.xcconfig */,
+				F76A8F1D7E2E2E6BB98F58097105DF54 /* Pods-YTTabSwiper_Tests.release.xcconfig */,
+			);
+			name = "Pods-YTTabSwiper_Tests";
+			path = "Target Support Files/Pods-YTTabSwiper_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0279C28E7230BBD63C721201254F5BBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A112FD1474B34F40669C9D01681450 /* Pods-YTTabSwiper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0CE61BB38D636C1743999451776D2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94D6C52A1BA26467259E64C79DEEC73 /* YTTabSwiper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E183AF21EB0B98E9958F7D4B859404CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5480B745271649BE1A5F71FF1FAE1F3D /* Pods-YTTabSwiper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CE9C68DE1DAFA39D81E88B8FEA0DC35 /* YTTabSwiper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F397C68417B774FE0FB718AE00DC67C7 /* Build configuration list for PBXNativeTarget "YTTabSwiper" */;
+			buildPhases = (
+				9E51243471181491D66102224D5E81D8 /* Sources */,
+				38F3BA1246DFA5281A165FC1888B596F /* Frameworks */,
+				BE0CE61BB38D636C1743999451776D2E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTTabSwiper;
+			productName = YTTabSwiper;
+			productReference = 850FF091CD45E382E92B0AB7478E5D91 /* YTTabSwiper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A311A16DC017B89E2E089B397CD5CF3 /* Pods-YTTabSwiper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D5B035B9B45F1D9F537C9E56C99100 /* Build configuration list for PBXNativeTarget "Pods-YTTabSwiper_Example" */;
+			buildPhases = (
+				77BB4069B7A10D2F770BC496CDF0ED14 /* Sources */,
+				23EB9247EF689E71F1F007ED9A5FEB4E /* Frameworks */,
+				E183AF21EB0B98E9958F7D4B859404CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A56CEE373306DD6CFE07B44C7F839A /* PBXTargetDependency */,
+			);
+			name = "Pods-YTTabSwiper_Example";
+			productName = "Pods-YTTabSwiper_Example";
+			productReference = 2DE70B5CACE61240E3B3434635FCA872 /* Pods_YTTabSwiper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92F3FAD010B1150AF46B156C3AD70E34 /* Pods-YTTabSwiper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491E9D937EFCA87A114B4B8407B9A940 /* Build configuration list for PBXNativeTarget "Pods-YTTabSwiper_Tests" */;
+			buildPhases = (
+				4CCFFA15DD3B7D8A75FEDB7392046C94 /* Sources */,
+				A2C1DD55D63B97E6F864CFD485592FD0 /* Frameworks */,
+				0279C28E7230BBD63C721201254F5BBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YTTabSwiper_Tests";
+			productName = "Pods-YTTabSwiper_Tests";
+			productReference = 415F76F86172C5926B0AE627F2F83A59 /* Pods_YTTabSwiper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ACFA1620555063A6ED5B0DC50B94EA8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A311A16DC017B89E2E089B397CD5CF3 /* Pods-YTTabSwiper_Example */,
+				92F3FAD010B1150AF46B156C3AD70E34 /* Pods-YTTabSwiper_Tests */,
+				4CE9C68DE1DAFA39D81E88B8FEA0DC35 /* YTTabSwiper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCFFA15DD3B7D8A75FEDB7392046C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2287157D04F7A07BFCBD9C0E84DCEE67 /* Pods-YTTabSwiper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BB4069B7A10D2F770BC496CDF0ED14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924D7C99641646EAA5D8024D31BA876B /* Pods-YTTabSwiper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E51243471181491D66102224D5E81D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF08C1E23D1B8B1E59703D10BA16E770 /* ReplaceMe.m in Sources */,
+				D9FD855C9037FAB2F932092819631CF1 /* YTTabSwiper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A56CEE373306DD6CFE07B44C7F839A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YTTabSwiper;
+			target = 4CE9C68DE1DAFA39D81E88B8FEA0DC35 /* YTTabSwiper */;
+			targetProxy = 6E12C0CE9B4EC8FC31B52672AAF1EC8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		078DC75925B1F6634525C4B89E7C9524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963DEA0A8A67A9D87336928C06F6EAC9 /* Pods-YTTabSwiper_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YTTabSwiper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTTabSwiper_Tests/Pods-YTTabSwiper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YTTabSwiper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EC41CEB13EB660C1B99E01D75F4996D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76A8F1D7E2E2E6BB98F58097105DF54 /* Pods-YTTabSwiper_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YTTabSwiper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTTabSwiper_Tests/Pods-YTTabSwiper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YTTabSwiper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D06EA28B34406591CD52B135C578FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6999B19DD0D187698A5D587130F1F97E /* YTTabSwiper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YTTabSwiper/YTTabSwiper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YTTabSwiper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YTTabSwiper/YTTabSwiper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YTTabSwiper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B547639E659DB87F92A02FA2D3F699A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939096F5CC6270667A498DE1A9BA5AFE /* Pods-YTTabSwiper_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YTTabSwiper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTTabSwiper_Example/Pods-YTTabSwiper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YTTabSwiper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D37798A4C2D83A5FD709738115392ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3854CA862B68E9C86B3E3F307DD20BA6 /* Pods-YTTabSwiper_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YTTabSwiper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTTabSwiper_Example/Pods-YTTabSwiper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YTTabSwiper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA8FA00D94992B0FB0566A40E8948488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6999B19DD0D187698A5D587130F1F97E /* YTTabSwiper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YTTabSwiper/YTTabSwiper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YTTabSwiper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YTTabSwiper/YTTabSwiper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YTTabSwiper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491E9D937EFCA87A114B4B8407B9A940 /* Build configuration list for PBXNativeTarget "Pods-YTTabSwiper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078DC75925B1F6634525C4B89E7C9524 /* Debug */,
+				2EC41CEB13EB660C1B99E01D75F4996D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D5B035B9B45F1D9F537C9E56C99100 /* Build configuration list for PBXNativeTarget "Pods-YTTabSwiper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B547639E659DB87F92A02FA2D3F699A7 /* Debug */,
+				D37798A4C2D83A5FD709738115392ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F397C68417B774FE0FB718AE00DC67C7 /* Build configuration list for PBXNativeTarget "YTTabSwiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D06EA28B34406591CD52B135C578FAD /* Debug */,
+				DA8FA00D94992B0FB0566A40E8948488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
