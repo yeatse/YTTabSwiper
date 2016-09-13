@@ -3,18 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29FB255C6847FE60D40E84EC /* Pods_YTTabSwiper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64407EDFAAAB3F315AA7A9F /* Pods_YTTabSwiper_Tests.framework */; };
+		38B2DA071D87BE34008B278A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B2DA061D87BE34008B278A /* AppDelegate.m */; };
+		38B2DA091D87C1A7008B278A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B2DA081D87C1A7008B278A /* Launch Screen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* YTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* YTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C1B7472A158F3BD98FE7C745 /* Pods_YTTabSwiper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39111C8FBF1A36F2E305C2FE /* Pods_YTTabSwiper_Example.framework */; };
+		C7C34CDFD0648E3018969E49 /* libPods-YTTabSwiper_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D477E4480614E85E5D677E0D /* libPods-YTTabSwiper_Example.a */; };
+		C987277B7224F86370C4BB12 /* libPods-YTTabSwiper_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59078DE6CD0BE89B32E7BB18 /* libPods-YTTabSwiper_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,12 @@
 /* Begin PBXFileReference section */
 		08A32B26AE20A9E89C1C7E43 /* Pods-YTTabSwiper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTTabSwiper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTTabSwiper_Tests/Pods-YTTabSwiper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		23F8F4D8BFAF7F54341E6344 /* Pods-YTTabSwiper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTTabSwiper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTTabSwiper_Example/Pods-YTTabSwiper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		39111C8FBF1A36F2E305C2FE /* Pods_YTTabSwiper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTTabSwiper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B2DA051D87BE34008B278A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38B2DA061D87BE34008B278A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38B2DA081D87C1A7008B278A /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		426434803E0AF407DACCF911 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		540CBF1435CDEF6580F039F0 /* Pods-YTTabSwiper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTTabSwiper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTTabSwiper_Example/Pods-YTTabSwiper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		59078DE6CD0BE89B32E7BB18 /* libPods-YTTabSwiper_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTTabSwiper_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F84A1CDBA03EF4B39EBB973 /* Pods-YTTabSwiper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTTabSwiper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTTabSwiper_Tests/Pods-YTTabSwiper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YTTabSwiper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTTabSwiper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,10 +53,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* YTTabSwiper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YTTabSwiper-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* YTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* YTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* YTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* YTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* YTTabSwiper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTTabSwiper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7C10C56135BE11F0123816F4 /* YTTabSwiper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YTTabSwiper.podspec; path = ../YTTabSwiper.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		D64407EDFAAAB3F315AA7A9F /* Pods_YTTabSwiper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTTabSwiper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D477E4480614E85E5D677E0D /* libPods-YTTabSwiper_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTTabSwiper_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE75CB2CA69359E9B652D93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +74,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				C1B7472A158F3BD98FE7C745 /* Pods_YTTabSwiper_Example.framework in Frameworks */,
+				C7C34CDFD0648E3018969E49 /* libPods-YTTabSwiper_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +85,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				29FB255C6847FE60D40E84EC /* Pods_YTTabSwiper_Tests.framework in Frameworks */,
+				C987277B7224F86370C4BB12 /* libPods-YTTabSwiper_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +120,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				39111C8FBF1A36F2E305C2FE /* Pods_YTTabSwiper_Example.framework */,
-				D64407EDFAAAB3F315AA7A9F /* Pods_YTTabSwiper_Tests.framework */,
+				D477E4480614E85E5D677E0D /* libPods-YTTabSwiper_Example.a */,
+				59078DE6CD0BE89B32E7BB18 /* libPods-YTTabSwiper_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,11 +129,10 @@
 		6003F593195388D20070C39A /* Example for YTTabSwiper */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* YTAppDelegate.h */,
-				6003F59D195388D20070C39A /* YTAppDelegate.m */,
+				38B2DA051D87BE34008B278A /* AppDelegate.h */,
+				38B2DA061D87BE34008B278A /* AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YTViewController.h */,
-				6003F5A6195388D20070C39A /* YTViewController.m */,
+				38B2DA081D87C1A7008B278A /* Launch Screen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -253,7 +251,7 @@
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "YTTabSwiper" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -278,6 +276,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				38B2DA091D87C1A7008B278A /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,8 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* YTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* YTViewController.m in Sources */,
+				38B2DA071D87BE34008B278A /* AppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,9 +514,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YTTabSwiper/YTTabSwiper-Prefix.pch";
 				INFOPLIST_FILE = "YTTabSwiper/YTTabSwiper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -532,9 +532,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YTTabSwiper/YTTabSwiper-Prefix.pch";
 				INFOPLIST_FILE = "YTTabSwiper/YTTabSwiper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

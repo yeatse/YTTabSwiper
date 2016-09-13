@@ -1,0 +1,1 @@
+../../../../../YTTabSwiper/Classes/YTTabSwipingGestureRecognizer.h

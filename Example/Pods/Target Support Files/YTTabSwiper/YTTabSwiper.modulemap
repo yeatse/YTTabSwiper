@@ -1,6 +1,0 @@
-framework module YTTabSwiper {
-  umbrella header "YTTabSwiper-umbrella.h"
-
-  export *
-  module * { export * }
-}
